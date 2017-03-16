@@ -12,7 +12,8 @@ The firewall has been configured to listen on ports 80 for http, 2200 for ssh, a
 It is not possible to log in with a password, all log in must be done through the use of a key
 
 
---Grader Private Key--
+----Grader Private Key---- .pem ---
+
 -----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEA1EXmbKi0ZbdrHnU0VLC/hDUgmtEgqs+NfAQk50lgI3aEmPvKtOBqGp7wAhJS
 ypZGK7La38a80flPuEcjRbZa1pmWc9kzv7n47r1kdpbNdp/wy8NuE7xcrP69TSdOCviBT6noXjiF
@@ -36,3 +37,31 @@ DWCjVPRPEUlM1EvCKCGFKUbVZSRFeIwzokLo9k0gZkIuqwKBgQCWJmr8QhbHhsaq/VwXDWuOjyeQ
 CG+5rm3pzUD6pcYVdzIaJtBps0QK2Zmh4YrWUVI17ZCmM0GgQx+gaKbU09MiHi3gTgA/iz3/0zQZ
 DY3+TXDvKgKEmSjoaEcjinScTRdL/ZO03sdjSMuvWSy4Ihah2RZK9Ph4qEPU5X2hwnb+cw==
 -----END RSA PRIVATE KEY-----
+
+---- .ppk ----
+PuTTY-User-Key-File-2: ssh-rsa
+Encryption: none
+Comment: imported-openssh-key
+Public-Lines: 6
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDIXFDyskfe6iD3DVjilsEYIz0i076r4rDp
+lmZuUIZeanLzH0W/7lhUtdyw9Pwn13yygqgsq/aWEK/wqCajVbLmlLGdYRhewDQd
+P2HSarmb/Xhe1QWYS5u4q+WggPxZ4sMZp/We+SwwjSueEzFn9FsF5uya4d2qsPna
+aBQjWPiel00ghZIs/xbXTy7l+P/t8lIP61r49J1AQOFMNjyHnY4wn88dqd7Y2hVZ
+qpZ4fGzbCKwISbIbBL9j5LXhaX2FRfNtEiX5ilPozyMnhebZnpKLvne8zK22Jbx6
+EIJi/N97gyc7wEAmKLdeHrXB8ud4CMB0iaCvUdmp7mmQ+s13UL2R
+Private-Lines: 14
+AAABAA2h0lQg8yjkjyef/ds03KByzVcQRxnUy6qo9AEvc2T7IyUNjKZZZiMlWIWl
+tX5UeASBRUX80UM2kXHzTuWwEAMGPOtzTsArnaAbzuENJ+HIJid1oPLSuh6fe3kn
+LYREHHgjaF/PnkUTZdNUhPkItCS7qH+FPJq/fdBxYmVhSVEo5VxUksEvIHRgjadF
+9deArnRNvNRfxDASYhj9+AxVsgnw4qHiKbQ0W74y+oxE3vqp9/5ukBAm+hsfpvRn
+4CJqf5wWtvPSbUac2H1Geat3amXcO/jQu7vfQoZCvEJ1MWG4uH+nVzFAW4cRGDxo
+7ohVNZFqk9t0hKvfsd85ZKyUW1EAAACBAOsrOKUOQ7OIBc3Ceem3W3u7gOIG+3/d
+QERodNWyOSvCs2yvN1E2YhxPV//vUM6qyIm8fEe3TNtfs0K4OST/1um9nKwlImZW
+dWv5D5ymuV72tfHmEeck+iIoThIg6Vj2dihrizeAycacNtNZvJSi9IDFq7mylrxi
+Pi2kUXc79Pm1AAAAgQDaG8UzD8/KOG+r5iUsSk8TIUA1pubEoxlKT0jG3cn7dANu
+YutfKtGJ29W7Q+hRHGOTqWjNJ4xbitaP68SNcDZe6JCv0tWFmKimsoL7JVdYI0ON
+TKuzwjNUphUyW151EkdBgSj8cM6tRiWzIMg18F1XA4qGPwUrJraBr0XZBJXt7QAA
+AIBYeuUwdIm9FvA3E1uWLRcyH6BXLDLu9xu6Jr3Ayj1k+Kz3ZvgXegof8ybgbmBy
+1CWGQQFTVIkH+B4iKIWKNKS2WNs2mNvzc6q4nla2ToPaMLw283tXzMQyOKQbfI15
+UFS2t/9nGBx0XWal+CnBEHWZ1w3cQOB8rXTOcRJA9+HYtA==
+Private-MAC: 0282b539864064db41cf959618694afb38ae24f8
