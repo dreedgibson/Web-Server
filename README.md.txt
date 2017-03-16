@@ -1,0 +1,38 @@
+This is the Web Server Project from Udacity:
+To view the website navigate to: http://54.208.161.83
+
+The item catalog project has been reconfigured to serve a Posgresql database
+To do this the following software has been installed:
+postgresql, psycopg2, apache2, mod_wsgi
+
+The following configurations have been made to the server:
+a 'grader' user has been created that can log in using the private key listed at the end of this document
+the grader user has been given sudo access.
+The firewall has been configured to listen on ports 80 for http, 2200 for ssh, and 123 for ntp
+It is not possible to log in with a password, all log in must be done through the use of a key
+
+
+--Grader Private Key--
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA1EXmbKi0ZbdrHnU0VLC/hDUgmtEgqs+NfAQk50lgI3aEmPvKtOBqGp7wAhJS
+ypZGK7La38a80flPuEcjRbZa1pmWc9kzv7n47r1kdpbNdp/wy8NuE7xcrP69TSdOCviBT6noXjiF
+JbijD98Ubk9mPENmazb/h156ywDHP83aK6OTgbv2hpzfWM4wKweFys7mp8Gd5yGu0bCmji2RQ+7m
+NgBY9F/u/b8AWfRMI+Q/0Uq74fnrycxaLt9uLBADXDMZlmEJzDnNKORCZITNp/XFG14BFvjl8Bbq
+Yby6DmjuDZCLPzEZTpBDpT/uMeOPMGarT/qukQ9BX7lHqcvs1mNCIwIDAQABAoIBAEXBMpdCWQWT
+4H+BxFCQRF8NlklJr5Jx4ex+8CGQ2ybMK4aaN2J43GUjFXuYydwIxcZWX9ZpWGMnqirENbMS2Ybr
+saUgGwFF+6d4VSsjIyF4LYjID8QsgcfXbh2MbPjt8JBdJR7RM+/RXMQ6alxVeyMSgvV4fT/erDtJ
+ZjBxVOBBpvP4KDlHKwsbSciu7fa7MDodel8kYzCHSZKwBh8D8HlqzsJ1UHjSq5pYR3X7xkrZ1Nb/
+0dKL4YhIH/fbqK2mNTx/dZV2ZNtMZ30SkAAQRvBw/6v6jFDt1iIChfjSWt4GUCjte1hRkYF0XpxT
+pWlULnJ80ITC1DVV/Bd9yyEpWQECgYEA+z3vdiwOEQPi84KeQIXmcqf77DG6amHVnhpGaYoehB+O
+HmUwxJAaB4iyF6mVoWPQSgB3AvIFICg+qCEc+0gcMIbDQ2MJkIjZuW5iNlC+zeJt8N4q70ozn+ej
+0dItc0mByGwxZXQX72ancOK3C5nJW+4oK9E7Ws50mYneU72Dr50CgYEA2EsJaJACZF35EBr+fkKE
+VCx+suPTRPL23w/v/VL9dwpUdh9NXyJKYyu+keIdNoDgZF4IUf3YGvmUgNAKm/An/lSZwZj5h1nY
+SncoJD4bHUCkLMlriPXWp3u0xUuJ/EhrBrtxYyR96wghbYPUn8XbyoxKrVV4T6WwH1HU134xbL8C
+gYEA+otSIItgX7F7gpDwVbHyFMbWYD1bBDmaOHdFXnwhYGrDZCZPEsYNXxP/Xb98+xu5nAKIrERD
+vkTD7xBOgXvwuKe7U5kQ8bS3QscEY9vz2wcB0iELueNKRh1O7a/mKUDVjtPuEplKQTAirF06YvQy
+rF18a+3UfgLCnlaxgtrL1rUCgYA7z8xDQQeYT7BPNtfHfIdxa3iB6aSDvZhtKNAZwnhbEd03aQKR
+Wz8s22zwlJG1f8ANoT81xTechgX99QnqA2hb2XNHaREfz8WTGg5cr1v6I+UCiZSWJD1+xSPBJ1l6
+DWCjVPRPEUlM1EvCKCGFKUbVZSRFeIwzokLo9k0gZkIuqwKBgQCWJmr8QhbHhsaq/VwXDWuOjyeQ
+CG+5rm3pzUD6pcYVdzIaJtBps0QK2Zmh4YrWUVI17ZCmM0GgQx+gaKbU09MiHi3gTgA/iz3/0zQZ
+DY3+TXDvKgKEmSjoaEcjinScTRdL/ZO03sdjSMuvWSy4Ihah2RZK9Ph4qEPU5X2hwnb+cw==
+-----END RSA PRIVATE KEY-----
